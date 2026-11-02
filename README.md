@@ -1,4 +1,6 @@
-# v35 量化选股系统 📈
+# 股海神经元 · NeuroPicker 📈
+
+> 用显卡苦练出来的 A 股量化选股系统 · v35
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-v35.0-blue.svg" alt="version">
