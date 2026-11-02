@@ -1,0 +1,46 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+env.bak/
+pythonenv.bak/
+
+# ===== 打包 / 构建 =====
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== 数据（原始行情、基本面等，禁止提交，体积大且含隐私） =====
+# 仅忽略目录内容，保留说明文档
+data/*
+!data/README.md
+preprocess/
+models/
+output/
+tmp_memmap/
+*.csv
+*.pth
+*.parquet
+*.feather
+
+# 例外：保留示例模板
+!examples/
+!examples/input_template.csv
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== 日志 / 缓存 =====
+*.log
+.cache/
